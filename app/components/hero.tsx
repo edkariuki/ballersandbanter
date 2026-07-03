@@ -46,6 +46,12 @@ export default function Hero() {
         .from('.hero-overlay', { opacity: 0, duration: 1 }, '-=1')
         .set('.hero-title', { opacity: 1 }, '-=0.4')
         .call(() => runScramble(), [], '-=0.3')
+        .to('.hero-subtitle', {
+          opacity: 1,
+          y: 0,
+          stagger: 0.2,
+          duration: 0.8,
+        }, '+=0.3') // starts after scramble finishes (24 frames * 35ms ≈ 840ms, plus buffer)
     }, containerRef)
 
     return () => {
@@ -67,10 +73,17 @@ export default function Hero() {
         sizes="100vw"
         className="hero-bg object-cover object-top"
       />
-      <div className="hero-overlay absolute inset-0 bg-black/50 flex items-center justify-center px-4">
-        <h1 className="hero-title opacity-0 text-white text-2xl sm:text-3xl md:text-5xl font-bold text-center max-w-3xl font-mono tracking-wider">
-          Welcome to {display}
+      <div className="hero-overlay absolute inset-0 bg-black/50 flex flex-col items-center justify-center px-4">
+        <h1 className="hero-title opacity-0 text-2xl sm:text-3xl md:text-5xl font-bold text-center max-w-3xl font-mono tracking-wider">
+          <span className="text-gray-300 font-normal">Welcome to </span>
+          <span className="text-amber-400">{display}</span>
         </h1>
+        <p className="hero-subtitle opacity-0 translate-y-4 text-white text-lg sm:text-xl md:text-xl text-center max-w-3xl pt-2">
+          Where Kenya's best gamers compete
+        </p>
+        {/* <p className="hero-subtitle opacity-0 translate-y-4 text-white text-lg sm:text-xl md:text-xl text-center max-w-3xl pt-2">
+          Join competitive video game tournaments with cash prizes, live broadcasts, leaderboards, and unforgettable events
+        </p> */}
       </div>
     </div>
   );
