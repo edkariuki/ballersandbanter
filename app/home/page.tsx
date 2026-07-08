@@ -3,7 +3,7 @@ import Features from "../components/features";
 
 export default function Home() {
   return (
-    <div className="snap-y snap-mandatory h-screen overflow-y-scroll">
+    <div id="scroll-container" className="snap-y snap-mandatory h-screen overflow-y-scroll">
       <section className="snap-start h-screen">
         <Hero />
       </section>
