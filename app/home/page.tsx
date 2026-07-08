@@ -7,7 +7,7 @@ export default function Home() {
       <section className="snap-start h-screen">
         <Hero />
       </section>
-      <section className="snap-start h-screen">
+      <section className="snap-start">
         <Features />
       </section>
     </div>
