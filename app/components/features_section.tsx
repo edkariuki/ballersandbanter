@@ -50,25 +50,6 @@ export default function FeatureSection({
           <li>✓ Cross-platform support</li>
         </ul>
 
-        {/* <button
-          className="
-            mt-8
-            w-fit
-            rounded-full
-            border
-            border-cyan-400
-            px-6
-            py-3
-            text-cyan-300
-            transition
-            hover:bg-cyan-400
-            hover:text-black
-            hover:shadow-[0_0_25px_rgba(34,211,238,.5)]
-            self-start
-          "
-        >
-          Learn More
-        </button> */}
       </div>
 
       {/* Image */}
