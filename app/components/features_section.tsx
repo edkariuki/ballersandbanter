@@ -1,10 +1,12 @@
 import Image, { StaticImageData } from "next/image";
+import { ChevronRight } from "lucide-react";
 
 type FeatureSectionProps = {
   title: string;
   description: string;
   image: StaticImageData;
   isReversed?: boolean;
+  index?: number;
 };
 
 export default function FeatureSection({
@@ -14,66 +16,93 @@ export default function FeatureSection({
   isReversed = false,
 }: FeatureSectionProps) {
   return (
-    <div
-      className={`
-        grid
-        grid-cols-1
-        lg:grid-cols-2
-        gap-12
-        lg:gap-20
-        items-center
-        py-2
-      `}
-    >
+    <div className="group grid overflow-hidden border-b border-cyan-400/10 md:grid-cols-2">
+      {/* Image */}
+      <div
+        className={`relative h-80 overflow-hidden md:h-[460px] ${isReversed ? "md:order-2" : "md:order-1"
+          }`}
+        style={{ background: "#0a0a1e" }}
+      >
+        <Image
+          src={image}
+          alt={title}
+          fill
+          className="object-cover transition-transform duration-700 group-hover:scale-105"
+        />
+
+        {/* Fade into text */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background: isReversed
+              ? "linear-gradient(to left, transparent 55%, #07071a 100%)"
+              : "linear-gradient(to right, transparent 55%, #07071a 100%)",
+          }}
+        />
+
+        {/* Mobile bottom fade */}
+        <div
+          className="absolute inset-0 md:hidden"
+          style={{
+            background:
+              "linear-gradient(to bottom, transparent 55%, #07071a 100%)",
+          }}
+        />
+
+        {/* Watermark */}
+        <div className="pointer-events-none absolute bottom-6 right-6 select-none text-8xl font-black text-cyan-400/10">
+        </div>
+      </div>
+
       {/* Text */}
       <div
-        className={`
-          ${isReversed ? "lg:order-2 text-right" : "lg:order-1 text-left"}
-          flex flex-col justify-center
-        `}
+        className={`flex flex-col justify-center px-8 py-16 md:px-14 md:py-20 ${isReversed ? "md:order-1" : "md:order-2"
+          }`}
+        style={{ background: "#07071a" }}
       >
 
-        <h2 className="text-4xl font-extrabold uppercase tracking-wide text-cyan-300">
+        {/* Heading */}
+        <h2 className="text-4xl font-black leading-tight text-white lg:text-5xl">
           {title}
         </h2>
 
-        <p className="mt-6 max-w-xl text-lg leading-8 text-gray-300">
+        {/* Description */}
+        <p className="mt-6 max-w-md text-lg leading-8 text-gray-400">
           {description}
         </p>
 
-        <ul
-          className={`mt-8 space-y-3 text-gray-400 ${isReversed ? "items-end" : "items-start"
-            }`}
-        >
-          <li>✓ Weekly competitions</li>
-          <li>✓ Instant matchmaking</li>
-          <li>✓ Cross-platform support</li>
-        </ul>
 
-      </div>
-
-      {/* Image */}
-      <div className={isReversed ? "lg:order-1" : "lg:order-2"}>
-        <div
+        {/* <button
           className="
-            overflow-hidden
-            rounded-3xl
+            mt-10
+            flex
+            w-fit
+            items-center
+            gap-3
             border
-            border-cyan-400/20
-            shadow-[0_0_40px_rgba(34,211,238,.15)]
+            border-cyan-400/30
+            bg-cyan-400/5
+            px-6
+            py-3
+            text-sm
+            font-bold
+            uppercase
+            tracking-[0.15em]
+            text-cyan-400
             transition-all
-            duration-500
-            hover:scale-[1.02]
-            hover:shadow-[0_0_50px_rgba(34,211,238,.35)]
+            duration-300
+            hover:scale-105
+            hover:border-cyan-400
+            hover:bg-cyan-400/10
           "
+          style={{
+            clipPath:
+              "polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%)",
+          }}
         >
-          <Image
-            src={image}
-            alt={title}
-            className="w-full h-auto object-cover"
-            priority={false}
-          />
-        </div>
+          Learn More
+          <ChevronRight size={16} />
+        </button> */}
       </div>
     </div>
   );
