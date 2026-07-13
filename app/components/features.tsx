@@ -2,9 +2,11 @@
 
 import FeatureSection from './features_section'
 
-import tournamentImg from '../assets/images/tourneyImg.jpg'
-import onevsoneImg from '../assets/images/saka.jpg'
-import cashprizeImg from '../assets/images/kd.jpg'
+import tournamentImg from '../assets/images/alexander-jt-2kl_Gj70F6U-unsplash.jpg'
+import onevsoneImg from '../assets/images/unov.jpg'
+import cashprizeImg from '../assets/images/krabs2.jpg'
+import medals from '../assets/images/medals.jpg'
+import liveTournamentImg from '../assets/images/florian-olivo-Mf23RF8xArY-unsplash.jpg'
 
 export default function Features() {
   const features = [
@@ -21,12 +23,12 @@ export default function Features() {
     {
       title: 'Live Broadcasts',
       description: 'Watch every big match live with the community.',
-      image: tournamentImg,
+      image: liveTournamentImg,
     },
     {
       title: 'Leaderboards',
       description: 'Track your rank and climb to the top every season.',
-      image: tournamentImg,
+      image: medals,
     },
     {
       title: '1v1 Challenges',
@@ -36,7 +38,7 @@ export default function Features() {
   ]
 
   return (
-    <section className="relative bg-gray-900 px-8 py-24 text-white md:px-16 lg:px-24">
+    <section className="relative bg-[#07071a] px-8 py-10 text-white md:px-16 lg:px-24">
       <div className="mx-auto max-w-7xl">
         <h2 className="text-center text-4xl font-bold md:text-5xl">
           Features
@@ -47,7 +49,7 @@ export default function Features() {
         </p>
 
         <div className="relative">
-          <div className="mt-8 space-y-16">
+          <div className="mt-2 space-y-4">
             {features.map((feature, index) => (
               <FeatureSection
                 key={feature.title}
@@ -55,6 +57,7 @@ export default function Features() {
                 description={feature.description}
                 image={feature.image}
                 isReversed={index % 2 === 1}
+                index={index}
               />
             ))}
           </div>
