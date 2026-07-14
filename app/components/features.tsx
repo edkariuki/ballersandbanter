@@ -40,13 +40,15 @@ export default function Features() {
   return (
     <section className="relative bg-[#07071a] px-8 py-10 text-white md:px-16 lg:px-24">
       <div className="mx-auto max-w-7xl">
-        <h2 className="text-center text-4xl font-bold md:text-5xl">
-          Features
-        </h2>
-
-        <p className="mt-4 text-center text-lg text-gray-400">
-          Everything you need to compete, win and dominate.
-        </p>
+        <div className="px-4 overflow-x-hidden">
+          <p className="text-center text-4xl font-black uppercase tracking-[0.15em] whitespace-nowrap sm:text-5xl md:text-6xl lg:text-7xl">
+            <span className="text-blue-400">COMPETE.</span>{" "}
+            <span className="text-emerald-400">WIN.</span>{" "}
+            <span className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent">
+              DOMINATE.
+            </span>
+          </p>
+        </div>
 
         <div className="relative">
           <div className="mt-2 space-y-4">

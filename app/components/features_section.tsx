@@ -19,7 +19,7 @@ export default function FeatureSection({
     <div className="group grid overflow-hidden border-b border-cyan-400/10 md:grid-cols-2">
       {/* Image */}
       <div
-        className={`relative h-80 overflow-hidden md:h-[460px] ${isReversed ? "md:order-2" : "md:order-1"
+        className={`relative h-80 overflow-hidden md:h-[350px] ${isReversed ? "md:order-2" : "md:order-1"
           }`}
         style={{ background: "#0a0a1e" }}
       >
@@ -70,39 +70,6 @@ export default function FeatureSection({
         <p className="mt-6 max-w-md text-lg leading-8 text-gray-400">
           {description}
         </p>
-
-
-        {/* <button
-          className="
-            mt-10
-            flex
-            w-fit
-            items-center
-            gap-3
-            border
-            border-cyan-400/30
-            bg-cyan-400/5
-            px-6
-            py-3
-            text-sm
-            font-bold
-            uppercase
-            tracking-[0.15em]
-            text-cyan-400
-            transition-all
-            duration-300
-            hover:scale-105
-            hover:border-cyan-400
-            hover:bg-cyan-400/10
-          "
-          style={{
-            clipPath:
-              "polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%)",
-          }}
-        >
-          Learn More
-          <ChevronRight size={16} />
-        </button> */}
       </div>
     </div>
   );
