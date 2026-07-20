@@ -1,6 +1,7 @@
 'use client'
 
 import FeatureSection from './features_section'
+import GameLogoCarousel from './games_carousel'
 
 import tournamentImg from '../assets/images/alexander-jt-2kl_Gj70F6U-unsplash.jpg'
 import onevsoneImg from '../assets/images/unov.jpg'
@@ -51,6 +52,13 @@ export default function Features() {
             <br />
             DOMINATE.
           </h1>
+        </div>
+
+        <div className="mb-20">
+          <p className="mb-6 text-center text-sm uppercase tracking-widest text-white/40">
+            Compete across your favorite titles
+          </p>
+          <GameLogoCarousel />
         </div>
 
         <div className="relative">
