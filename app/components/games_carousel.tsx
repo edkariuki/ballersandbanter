@@ -64,25 +64,28 @@ export default function GameLogoCarousel() {
         role="list"
         aria-label="Supported games"
       >
-        {[...GAMES, ...GAMES].map((game, i) => (
-          <div
-            key={`${game.name}-${i}`}
-            role="listitem"
-            className="flex shrink-0 items-center justify-center grayscale opacity-50 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
-          >
-            <Image
-              src={game.logo}
-              alt="" // decorative: name is conveyed via aria-label on the list, not per-logo text
-              width={120}
-              height={60}
-              className="h-12 w-auto object-contain lg:h-16"
-              onError={(e) => {
-                // hide broken image instead of showing alt text/broken icon
-                e.currentTarget.style.display = 'none'
-              }}
-            />
-          </div>
-        ))}
+        {[...GAMES, ...GAMES].map((game, i) => {
+          if (!game.logo) return null // guards against undefined/empty src
+
+          return (
+            <div
+              key={`${game.name}-${i}`}
+              role="listitem"
+              className="flex shrink-0 items-center justify-center grayscale opacity-50 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
+            >
+              <Image
+                src={game.logo}
+                alt=""
+                width={120}
+                height={60}
+                className="h-12 w-auto object-contain lg:h-16"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none'
+                }}
+              />
+            </div>
+          )
+        })}
       </div>
     </div>
   )
