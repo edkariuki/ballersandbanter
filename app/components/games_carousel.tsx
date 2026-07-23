@@ -5,11 +5,12 @@ import gsap from 'gsap'
 import Image from 'next/image'
 import CODLogo from '../assets/logos/Screenshot 2026-07-23 at 21.01.10.png'
 import FCLogo from '../assets/logos/fc_logo.png'
+import ApexLogo from '../assets/logos/apex_logo.jpg'
 
 const GAMES = [
   { name: 'Valorant', logo: CODLogo },
   { name: 'FIFA', logo: FCLogo },
-  { name: 'CS2', logo: '/logos/cs2.svg' },
+  { name: 'Apex Legends', logo: ApexLogo },
   { name: 'League of Legends', logo: FCLogo },
   { name: 'Call of Duty', logo: '/logos/cod.svg' },
   { name: 'Fortnite', logo: '/logos/fortnite.svg' },
