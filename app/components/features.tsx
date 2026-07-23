@@ -3,11 +3,11 @@
 import FeatureSection from './features_section'
 import GameLogoCarousel from './games_carousel'
 
-import tournamentImg from '../assets/images/alexander-jt-2kl_Gj70F6U-unsplash.jpg'
+import tournamentImg from '../assets/images/pexels-yankrukov-9072204.jpg'
 import onevsoneImg from '../assets/images/unov.jpg'
-import cashprizeImg from '../assets/images/krabs2.jpg'
-import medals from '../assets/images/medals.jpg'
-import liveTournamentImg from '../assets/images/florian-olivo-Mf23RF8xArY-unsplash.jpg'
+import cashprizeImg from '../assets/images/winning.jpg'
+import medals from '../assets/images/leaderboard2.jpg'
+import liveTournamentImg from '../assets/images/pexels-amateur-wizard-5382381.jpg'
 
 export default function Features() {
   const features = [
@@ -17,7 +17,7 @@ export default function Features() {
       image: tournamentImg,
     },
     {
-      title: 'Cash Prizes',
+      title: 'Prizes',
       description: 'Win real cash rewards from exciting competitions.',
       image: cashprizeImg,
     },
