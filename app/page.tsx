@@ -1,5 +1,6 @@
 import Hero from "./components/hero";
 import Features from "./components/features";
+import Testimonials from "./components/testimonials";
 
 export default function Home() {
   return (
@@ -9,6 +10,11 @@ export default function Home() {
       </section>
       <section className="snap-start">
         <Features />
+      </section>
+      <section className="snap-start flex justify-center px-8 py-20">
+        <div className="w-full max-w-6xl">
+          <Testimonials />
+        </div>
       </section>
     </div>
   );
