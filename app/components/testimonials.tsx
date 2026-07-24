@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Image, { StaticImageData } from 'next/image'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
+import AvatarImg from '../assets/avatars/olise.jpg'
 
 type Testimonial = {
     quote: string
@@ -17,21 +18,21 @@ const TESTIMONIALS: Testimonial[] = [
             "This is one of the best platforms I've interacted with as a gamer. The tournaments actually feel competitive, and getting paid out is fast.",
         name: 'Kevo Muriithi',
         role: 'Valorant, Diamond rank',
-        avatar: '/avatars/kevo.jpg',
+        avatar: AvatarImg,
     },
     {
         quote:
             "I've tried many gaming platforms, but this one stands out for its fair play and quick payouts. Highly recommended!",
         name: 'Sarah Johnson',
         role: 'League of Legends, Platinum rank',
-        avatar: '/avatars/sarah.jpg',
+        avatar: AvatarImg,
     },
     {
         quote:
             "The community here is amazing! I've made so many friends and had incredible experiences competing in tournaments.",
         name: 'Mike Thompson',
         role: 'CS:GO, Global rank',
-        avatar: '/avatars/mike.jpg',
+        avatar: AvatarImg,
     },
     // add more testimonials here — next/back will cycle through this array
 ]
