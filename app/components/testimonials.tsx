@@ -17,21 +17,21 @@ const TESTIMONIALS: Testimonial[] = [
     {
         quote:
             "This is one of the best platforms I've interacted with as a gamer. The tournaments actually feel competitive, and getting paid out is fast.",
-        name: 'Kevo Muriithi',
+        name: 'Edmond Kilimo',
         role: 'Valorant, Diamond rank',
         avatar: AvatarImg,
     },
     {
         quote:
             "I've tried many gaming platforms, but this one stands out for its fair play and quick payouts. Highly recommended!",
-        name: 'Sarah Johnson',
+        name: 'Kilimo Edmond',
         role: 'Call of Duty Ranked, Irridescent',
         avatar: AvatarImg,
     },
     {
         quote:
             "The community here is amazing! I've made so many friends and had incredible experiences competing in tournaments.",
-        name: 'Mike Thompson',
+        name: 'Tangus Sr.',
         role: 'FC26, Elite division',
         avatar: AvatarImg,
     },
