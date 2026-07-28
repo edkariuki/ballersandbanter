@@ -1,6 +1,7 @@
 import Hero from "./components/hero";
 import Features from "./components/features";
 import Testimonials from "./components/testimonials";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
         <div className="w-full max-w-6xl">
           <Testimonials />
         </div>
+      </section>
+      <section className="snap-start">
+        <Footer />
       </section>
     </div>
   );
