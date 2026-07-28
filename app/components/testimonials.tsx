@@ -25,14 +25,14 @@ const TESTIMONIALS: Testimonial[] = [
         quote:
             "I've tried many gaming platforms, but this one stands out for its fair play and quick payouts. Highly recommended!",
         name: 'Sarah Johnson',
-        role: 'League of Legends, Platinum rank',
+        role: 'Call of Duty Ranked, Irridescent',
         avatar: AvatarImg,
     },
     {
         quote:
             "The community here is amazing! I've made so many friends and had incredible experiences competing in tournaments.",
         name: 'Mike Thompson',
-        role: 'CS:GO, Global rank',
+        role: 'FC26, Elite division',
         avatar: AvatarImg,
     },
     // add more testimonials here — next/back will cycle through this array
@@ -48,16 +48,16 @@ export default function TestimonialCard() {
 
     return (
         <div
-            className="mx-auto flex w-full max-w-md flex-col items-center rounded-2xl border border-cyan-400/10 px-8 py-12 text-center"
+            className="mx-auto flex w-full max-w-2xl flex-col items-center rounded-2xl border border-cyan-400/10 px-8 py-12 text-center"
             style={{ background: '#0a0a1e' }}
         >
-            <Image src={QuoteIcon} alt="" width={51} height={45} className="text-[#7c3aed]" />
+            <Image src={QuoteIcon} alt="" width={70} height={80} className="text-[#7c3aed]" />
 
             <p
                 className="mt-6 text-lg leading-8 text-gray-300"
                 style={{ fontFamily: "'Rajdhani', sans-serif" }}
             >
-                &ldquo;{current.quote}&rdquo;
+                {current.quote}
             </p>
 
             <div className="relative mt-8 h-16 w-16 overflow-hidden rounded-full border border-cyan-400/20">
