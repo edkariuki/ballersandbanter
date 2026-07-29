@@ -1,22 +1,14 @@
-import HeroImage from "../components/about/hero_image";
-import DancingRasta from '../assets/images/dancing_rasta.png'
-import PlayerDNA from "../components/about/player_dna";
+// app/about/page.tsx  (or wherever About currently lives)
+
+import PlayerProfile from "../components/about/player_profile";
+import { players } from "../components/about/data/player_data";
 
 export default function About() {
     return (
-        <main className="relative min-h-screen bg-gray-900 overflow-hidden">
-            <HeroImage
-                src={DancingRasta}
-                alt="Mohamed Rady"
-            />
-            <div className="absolute left-40 top-64 w-[360px]">
-                <PlayerDNA
-                    position="CAM"
-                    platform="PlayStation 5"
-                    playstyle="Creative Playmaker"
-                    region="Kenya 🇰🇪"
-                />
-            </div>
-        </main>
-    )
+        <div className="h-screen w-full overflow-y-scroll snap-y snap-mandatory">
+            {players.map((player) => (
+                <PlayerProfile key={player.name} {...player} />
+            ))}
+        </div>
+    );
 }
