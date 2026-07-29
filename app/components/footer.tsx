@@ -19,10 +19,10 @@ export default function Footer() {
     return (
         <footer
             className="relative overflow-hidden border-t border-cyan-400/10"
-            style={{ background: '#0a0a1e' }}
+            style={{ background: '#00000080', backdropFilter: 'blur(16px)' }}
         >
             <div
-                className="absolute inset-0 opacity-[0.06]"
+                className="absolute inset-0 opacity-[0.07]"
                 style={{
                     backgroundImage: `url(${PsIcons.src})`,
                     backgroundRepeat: 'repeat',
