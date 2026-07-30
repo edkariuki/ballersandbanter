@@ -38,7 +38,7 @@ export const players = [
         role: "",
         position: "ST, RW",
         platform: "PS5",
-        playstyle: "CDM",
+        playstyle: "C.Ronaldo",
         region: "Kenya 🇰🇪",
         prowessDescription:
             "An electrifying striker with flair to spare, Core11 lives to embarrass defenders and light up the scoreboard. Every touch is a chance for a new skill move, every one-on-one a challenge he's eager to win. Fearless, unpredictable, and clinical in front of goal, he turns moments of brilliance into match-winning performances and keeps fans on the edge of their seats.",
@@ -57,20 +57,19 @@ export const players = [
         name: "UNCMIRO",
         role: "",
         position: "ST, RW",
-        platform: "PS5",
-        playstyle: "CDM",
+        platform: "PC, PS5",
+        playstyle: "Casemiro",
         region: "Kenya 🇰🇪",
         prowessDescription:
-            "A relentless creative force in midfield, Frodo reads the game a step ahead of everyone else — threading passes through gaps most players don't even see. Calm under pressure, ruthless in transition, and always the first name on the teamsheet when it matters most.",
+            "A fearless ball-winner who treats every tackle like a statement, Uncmiro thrives on shutting down attacks before they can breathe. Aggressive in the challenge, relentless in the press, and always first to the loose ball, he turns defense into opportunity. Every interception, crunching tackle, and perfectly timed challenge fuels the team and reminds opponents that nothing comes easy through his midfield.",
         games: [
             { name: "EA FC 26", logo: FClogo },
-            { name: "Valorant", logo: ValorantLogo },
-            { name: "Apex Legends", logo: ApexLogo },
+            { name: "Call of Duty", logo: CODLogo },
+            { name: "Gta", logo: GtaLogo },
         ],
         socials: [
-            { platform: "twitch" as const, url: "https://www.twitch.tv/ofodongoro" },
-            { platform: "instagram" as const, url: "https://instagram.com/ofodongoro" },
-            { platform: "twitter" as const, url: "https://twitter.com/ofodongoro" },
+            { platform: "twitch" as const, url: "https://www.twitch.tv/starbuster101" },
+            { platform: "instagram" as const, url: "https://instagram.com/ced_clubberlang" },
         ],
     },
     {
