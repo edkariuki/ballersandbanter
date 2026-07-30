@@ -12,6 +12,7 @@ import GtaLogo from '../../../assets/logos/gta_logo.jpg'
 import CODLogo from '../../../assets/logos/cod_logo1.jpg'
 import NBA2KLogo from '../../../assets/logos/nba2k_logo.jpg'
 import FortniteLogo from '../../../assets/logos/fortnite_logo.jpg'
+import RedDeadLogo from '../../../assets/logos/red_dead_logo.jpg'
 
 export const players = [
     {
@@ -111,30 +112,28 @@ export const players = [
             { name: "Fortnite", logo: FortniteLogo },
         ],
         socials: [
-            { platform: "twitch" as const, url: "https://www.twitch.tv/ofodongoro" },
-            { platform: "instagram" as const, url: "https://instagram.com/ofodongoro" },
-            { platform: "twitter" as const, url: "https://twitter.com/ofodongoro" },
+            { platform: "instagram" as const, url: "https://www.instagram.com/titaiiiiii/" },
         ],
     },
     {
         heroImage: Elmatador,
         name: "AREA 51",
         role: "",
-        position: "ST, RW",
+        position: "CAM",
         platform: "PS5",
-        playstyle: "CDM",
+        playstyle: "B. Fernandes",
         region: "Kenya 🇰🇪",
         prowessDescription:
-            "A relentless creative force in midfield, Frodo reads the game a step ahead of everyone else — threading passes through gaps most players don't even see. Calm under pressure, ruthless in transition, and always the first name on the teamsheet when it matters most.",
+            "A creative mastermind between the lines, Area 51 delivers passes that feel almost impossible to predict. With vision beyond the ordinary, every through ball is a calculated strike into dangerous spaces, slicing open defenses and sending teammates through on goal. Mysterious, precise, and always one pass ahead, Area 51 turns chances into clear-cut opportunities.",
         games: [
             { name: "EA FC 26", logo: FClogo },
-            { name: "Valorant", logo: ValorantLogo },
             { name: "Apex Legends", logo: ApexLogo },
+            { name: "Red Dead Redemption 2", logo: RedDeadLogo },
         ],
         socials: [
-            { platform: "twitch" as const, url: "https://www.twitch.tv/ofodongoro" },
-            { platform: "instagram" as const, url: "https://instagram.com/ofodongoro" },
-            { platform: "twitter" as const, url: "https://twitter.com/ofodongoro" },
+            { platform: "twitch" as const, url: "https://www.twitch.tv/mbichiedwin" },
+            { platform: "instagram" as const, url: "https://www.instagram.com/_.kari.uki/" },
+            { platform: "twitter" as const, url: "https://twitter.com/mbichiedwin" },
         ],
     },
 ];
