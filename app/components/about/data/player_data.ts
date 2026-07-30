@@ -11,6 +11,7 @@ import LastOfUsLogo from '../../../assets/logos/last_of_us_logo.jpg'
 import GtaLogo from '../../../assets/logos/gta_logo.jpg'
 import CODLogo from '../../../assets/logos/cod_logo1.jpg'
 import NBA2KLogo from '../../../assets/logos/nba2k_logo.jpg'
+import FortniteLogo from '../../../assets/logos/fortnite_logo.jpg'
 
 export const players = [
     {
@@ -97,16 +98,17 @@ export const players = [
         heroImage: CoolJoe,
         name: "TANGUS",
         role: "",
-        position: "ST, RW",
+        position: "CM, ST, CB",
         platform: "PS5",
-        playstyle: "CDM",
+        playstyle: "Rodri",
         region: "Kenya 🇰🇪",
         prowessDescription:
-            "A relentless creative force in midfield, Frodo reads the game a step ahead of everyone else — threading passes through gaps most players don't even see. Calm under pressure, ruthless in transition, and always the first name on the teamsheet when it matters most.",
+            "A midfield marauder who thrives under pressure, Tangus makes escaping tight spaces look effortless. With a constant demand for the ball and a simple yet deadly passing style, he turns chaos into control with every touch. Whether surrounded by opponents or building the next attack, Tangus always finds the easy way out — making difficult situations look routine.",
         games: [
             { name: "EA FC 26", logo: FClogo },
-            { name: "Valorant", logo: ValorantLogo },
+            { name: "Call of Duty", logo: CODLogo },
             { name: "Apex Legends", logo: ApexLogo },
+            { name: "Fortnite", logo: FortniteLogo },
         ],
         socials: [
             { platform: "twitch" as const, url: "https://www.twitch.tv/ofodongoro" },
