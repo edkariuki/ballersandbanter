@@ -24,7 +24,6 @@ interface PlayerProfileProps {
     position: string;
     platform: string;
     playstyle: string;
-    region: string;
     prowessDescription: string;
     games: GameTitle[];
     socials: SocialLink[];
@@ -37,7 +36,6 @@ export default function PlayerProfile({
     position,
     platform,
     playstyle,
-    region,
     prowessDescription,
     games,
     socials,
