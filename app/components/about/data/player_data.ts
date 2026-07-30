@@ -19,7 +19,7 @@ export const players = [
         heroImage: DancingRasta,
         name: "FRODO",
         role: "CAPTAIN",
-        position: "CDM",
+        position: "CM, CDM, ST, LW",
         platform: "PC",
         playstyle: "Mousa Dembélé",
         prowessDescription:
