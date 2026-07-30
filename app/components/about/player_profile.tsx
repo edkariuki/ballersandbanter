@@ -63,15 +63,15 @@ export default function PlayerProfile({
                 />
             </div>
 
-            <div className="absolute right-32 top-20 w-[320px]">
+            <div className="absolute right-32 top-20 w-[400px]">
                 <PlayerProwess title="Prowess" description={prowessDescription} />
             </div>
 
-            <div className="absolute right-32 top-[475px] w-[320px]">
+            <div className="absolute right-32 top-[475px] w-[400px]">
                 <PlayerGames games={games} />
             </div>
 
-            <div className="absolute right-32 top-[600px] w-[320px]">
+            <div className="absolute right-32 top-[600px] w-[400px]">
                 <PlayerSocials socials={socials} />
             </div>
         </section>
