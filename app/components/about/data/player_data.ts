@@ -10,6 +10,7 @@ import ApexLogo from '../../../assets/logos/apex_logo.jpg'
 import LastOfUsLogo from '../../../assets/logos/last_of_us_logo.jpg'
 import GtaLogo from '../../../assets/logos/gta_logo.jpg'
 import CODLogo from '../../../assets/logos/cod_logo1.jpg'
+import NBA2KLogo from '../../../assets/logos/nba2k_logo.jpg'
 
 export const players = [
     {
@@ -38,7 +39,7 @@ export const players = [
         role: "",
         position: "ST, RW",
         platform: "PS5",
-        playstyle: "C.Ronaldo",
+        playstyle: "C. Ronaldo",
         region: "Kenya 🇰🇪",
         prowessDescription:
             "An electrifying striker with flair to spare, Core11 lives to embarrass defenders and light up the scoreboard. Every touch is a chance for a new skill move, every one-on-one a challenge he's eager to win. Fearless, unpredictable, and clinical in front of goal, he turns moments of brilliance into match-winning performances and keeps fans on the edge of their seats.",
@@ -49,14 +50,14 @@ export const players = [
         ],
         socials: [
             { platform: "twitch" as const, url: "https://www.twitch.tv/corethe1" },
-            { platform: "instagram" as const, url: "https://instagram.com/cores.jpg" },
+            { platform: "instagram" as const, url: "https://www.instagram.com/core.onze/" },
         ],
     },
     {
         heroImage: Blok,
         name: "UNCMIRO",
         role: "",
-        position: "ST, RW",
+        position: "CM, ST, RW",
         platform: "PC, PS5",
         playstyle: "Casemiro",
         region: "Kenya 🇰🇪",
@@ -76,21 +77,20 @@ export const players = [
         heroImage: NorthShaw,
         name: "SERGIO BISKUTI",
         role: "",
-        position: "ST, RW",
+        position: "CM, LB, LW",
         platform: "PS5",
-        playstyle: "CDM",
+        playstyle: "S. Busquets",
         region: "Kenya 🇰🇪",
         prowessDescription:
-            "A relentless creative force in midfield, Frodo reads the game a step ahead of everyone else — threading passes through gaps most players don't even see. Calm under pressure, ruthless in transition, and always the first name on the teamsheet when it matters most.",
+            "A master of possession, Sergio Biskuti controls the rhythm of every match with patience and precision. Rarely rushed and almost impossible to dispossess, he shields the ball, picks the right pass, and keeps the team ticking from the heart of midfield. Every touch has a purpose, turning pressure into control and possession into dominance.",
         games: [
             { name: "EA FC 26", logo: FClogo },
-            { name: "Valorant", logo: ValorantLogo },
-            { name: "Apex Legends", logo: ApexLogo },
+            { name: "Call of Duty", logo: CODLogo },
+            { name: "NBA 2K", logo: NBA2KLogo },
         ],
         socials: [
-            { platform: "twitch" as const, url: "https://www.twitch.tv/ofodongoro" },
-            { platform: "instagram" as const, url: "https://instagram.com/ofodongoro" },
-            { platform: "twitter" as const, url: "https://twitter.com/ofodongoro" },
+            { platform: "twitch" as const, url: "https://www.twitch.tv/chinja22" },
+            { platform: "instagram" as const, url: "https://www.instagram.com/edd.deebo/" },
         ],
     },
     {
