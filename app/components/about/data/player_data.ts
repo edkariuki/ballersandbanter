@@ -1,6 +1,9 @@
 import DancingRasta from '../../../assets/images/dancing_rasta.png'
 import Shakes from '../../../assets/images/shakes4.png'
 import Blok from '../../../assets/images/blok.png'
+import CoolJoe from '../../../assets/images/cool_joe.png'
+import NorthShaw from '../../../assets/images/north_shaw.png'
+import Elmatador from '../../../assets/images/elmatador1.png'
 import FClogo from '../../../assets/logos/fc_logo.png'
 import ValorantLogo from '../../../assets/logos/valorant_logo.jpg'
 import ApexLogo from '../../../assets/logos/apex_logo.jpg'
@@ -70,7 +73,7 @@ export const players = [
         ],
     },
     {
-        heroImage: Blok,
+        heroImage: NorthShaw,
         name: "SERGIO BISKUTI",
         role: "",
         position: "ST, RW",
@@ -91,7 +94,7 @@ export const players = [
         ],
     },
     {
-        heroImage: Blok,
+        heroImage: CoolJoe,
         name: "TANGUS",
         role: "",
         position: "ST, RW",
@@ -112,7 +115,7 @@ export const players = [
         ],
     },
     {
-        heroImage: Blok,
+        heroImage: Elmatador,
         name: "AREA 51",
         role: "",
         position: "ST, RW",
