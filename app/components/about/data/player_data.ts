@@ -73,6 +73,7 @@ export const players = [
         socials: [
             { platform: "twitch" as const, url: "https://www.twitch.tv/starbuster101" },
             { platform: "instagram" as const, url: "https://instagram.com/ced_clubberlang" },
+            { platform: "youtube" as const, url: "https://www.youtube.com/@starbuster101/streams" },
         ],
     },
     {
