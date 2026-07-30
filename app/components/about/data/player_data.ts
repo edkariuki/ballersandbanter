@@ -1,4 +1,4 @@
-import DancingRasta from '../../../assets/images/dancing_rasta.png'
+import DancingRasta from '../../../assets/images/dancing_rasta-Photoroom.png'
 import Shakes from '../../../assets/images/shakes4.png'
 import Blok from '../../../assets/images/blok.png'
 import CoolJoe from '../../../assets/images/cool_joe.png'
