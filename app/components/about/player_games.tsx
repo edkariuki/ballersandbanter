@@ -22,7 +22,7 @@ export default function PlayerGames({
                 {games.map((game) => (
                     <div
                         key={game.name}
-                        className="relative w-12 h-12 grayscale hover:grayscale-0 transition-all duration-300"
+                        className="relative w-14 h-14 grayscale hover:grayscale-0 transition-all duration-300"
                         title={game.name}
                     >
                         <Image

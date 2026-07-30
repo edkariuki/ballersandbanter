@@ -59,7 +59,6 @@ export default function PlayerProfile({
                     position={position}
                     platform={platform}
                     playstyle={playstyle}
-                    region={region}
                 />
             </div>
 

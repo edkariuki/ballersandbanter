@@ -2,20 +2,17 @@ type PlayerDNAProps = {
     position: string;
     platform: string;
     playstyle: string;
-    region: string;
 };
 
 export default function PlayerDNA({
     position,
     platform,
     playstyle,
-    region,
 }: PlayerDNAProps) {
     const items = [
         { label: "Position", value: position },
         { label: "Platform", value: platform },
         { label: "Playstyle", value: playstyle },
-        { label: "Region", value: region },
     ];
 
     return (
