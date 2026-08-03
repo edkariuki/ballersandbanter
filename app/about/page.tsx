@@ -1,5 +1,3 @@
-// app/about/page.tsx  (or wherever About currently lives)
-
 import PlayerProfile from "../components/about/player_profile";
 import { players } from "../components/about/data/player_data";
 import AboutIntro from "../components/about/about_intro";
