@@ -1,5 +1,3 @@
-// components/about/player_games.tsx
-
 import Image, { StaticImageData } from "next/image";
 
 interface GameTitle {
