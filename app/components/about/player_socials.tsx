@@ -1,5 +1,3 @@
-// components/about/player_socials.tsx
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faInstagram,
