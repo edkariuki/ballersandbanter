@@ -1,5 +1,3 @@
-// components/about/player_prowess.tsx
-
 interface PlayerProwessProps {
     title?: string;
     description: string;
