@@ -1,7 +1,6 @@
 export default function AboutIntro() {
     return (
         <>
-            {/* About Content */}
             <section className="h-screen snap-start flex items-center px-8 md:px-20 bg-[#0a0a1e] text-white">
                 <div className="max-w-6xl">
 
@@ -23,8 +22,6 @@ export default function AboutIntro() {
                 </div>
             </section>
 
-
-            {/* Meet Team Transition */}
             <section className="h-screen snap-start flex items-center justify-center bg-[#0a0a1e] text-white">
 
                 <h2 className="font-archivo-black text-7xl md:text-[12rem] uppercase tracking-tighter leading-[0.85] text-center">
