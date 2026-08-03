@@ -1,5 +1,3 @@
-// components/about/player_profile.tsx
-
 import HeroImage from "./hero_image";
 import PlayerDNA from "./player_dna";
 import PlayerProwess from "./player_prowess";
