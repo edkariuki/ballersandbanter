@@ -17,7 +17,6 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-2 z-50 flex w-full justify-center px-4">
-      {/* Desktop: original text-link pill, unchanged */}
       <div className="hidden items-center gap-x-10 rounded-full border border-white/10 bg-gray-900/60 px-8 py-3 backdrop-blur-md md:flex">
         {links.map(({ href, label }) => (
           <Link
@@ -30,7 +29,6 @@ export default function Navbar() {
         ))}
       </div>
 
-      {/* Mobile: icon pill with expanding active label */}
       <div className="flex items-center gap-x-2 rounded-full border border-white/10 bg-gray-900/70 p-2 backdrop-blur-md md:hidden">
         {links.map(({ href, label, icon: Icon }) => {
           const isActive = pathname === href;
