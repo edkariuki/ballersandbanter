@@ -8,7 +8,7 @@ const links = [
   { href: "/", label: "Home", icon: Home },
   { href: "/about", label: "About", icon: Gem },
   { href: "/contact", label: "Contact", icon: Inbox },
-  { href: "/tournaments", label: "Tournaments", icon: Trophy },
+  { href: "/tournaments", label: "Tourneys", icon: Trophy },
   { href: "/community", label: "Community", icon: Users },
 ];
 
