@@ -9,7 +9,7 @@ const links = [
   { href: "/about", label: "About", icon: Gem },
   { href: "/contact", label: "Contact", icon: Inbox },
   { href: "/tournaments", label: "Tourneys", icon: Trophy },
-  { href: "/community", label: "Community", icon: Users },
+  { href: "/community", label: "Social", icon: Users },
 ];
 
 export default function Navbar() {
