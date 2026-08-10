@@ -1,7 +1,7 @@
 export default function AboutIntro() {
     return (
         <>
-            <section className="h-screen snap-start flex items-center px-8 md:px-20 bg-[#0a0a1e] text-white">
+            <section className="min-h-screen snap-start flex items-center px-8 pt-24 md:px-20 md:pt-0 bg-[#0a0a1e] text-white">
                 <div className="max-w-6xl">
 
                     <h1 className="font-archivo-black text-7xl md:text-9xl uppercase tracking-tighter leading-none">
