@@ -39,10 +39,10 @@ export default function GetInTouch() {
                         </p>
 
                         <a
-                            href="mailto:hello@supastrikas.com"
+                            href="mailto:hello@ballersandbanter.com"
                             className="text-2xl md:text-3xl font-bold hover:text-cyan-400 transition-colors"
                         >
-                            hello@supastrikas.com
+                            hello@ballersandbanter.com
                         </a>
                     </div>
 
@@ -78,7 +78,7 @@ export default function GetInTouch() {
                             </a>
 
                             <a
-                                href="#"
+                                href="https://www.tiktok.com/@ballersnbanters?_r=1&_t=ZS-98lweQtzM1t"
                                 aria-label="TikTok"
                                 className="text-white text-4xl hover:text-cyan-400 hover:-translate-y-1 transition-all"
                             >
