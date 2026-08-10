@@ -27,7 +27,6 @@ export default function GetInTouch() {
                     </h1>
                 </div>
 
-                {/* RIGHT */}
                 <div className="flex flex-col justify-center gap-14">
 
                     {/* EMAIL */}
@@ -46,7 +45,6 @@ export default function GetInTouch() {
                         </a>
                     </div>
 
-                    {/* PHONE */}
                     <div>
                         <Phone className="text-cyan-400 text-5xl mb-6" />
 
@@ -62,7 +60,6 @@ export default function GetInTouch() {
                         </a>
                     </div>
 
-                    {/* SOCIALS */}
                     <div>
                         <p className="uppercase text-gray-500 text-sm font-bold tracking-widest mb-5">
                             Follow Us
