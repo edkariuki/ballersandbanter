@@ -30,8 +30,6 @@ export default function AboutIntro() {
                         The Team
                     </span>
                 </h2>
-                {/* <p> We met as FC players and the team will be introduced by how we play.</p> */}
-
             </section>
         </>
     );
