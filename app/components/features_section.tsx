@@ -57,13 +57,12 @@ export default function FeatureSection({
 
       {/* Text */}
       <div
-        className={`flex flex-col justify-center px-8 py-16 md:px-14 md:py-20 ${isReversed ? "md:order-1" : "md:order-2"
+        className={`flex flex-col items-center justify-center px-8 py-16 text-center md:items-start md:px-14 md:py-20 md:text-left ${isReversed ? "md:order-1" : "md:order-2"
           }`}
         style={{ background: "#07071a" }}
       >
-
         {/* Heading */}
-        <h2 className="text-5xl font-black uppercase tracking-tight leading-[0.9] text-white md:text-6xl">
+        <h2 className="text-4xl sm:text-5xl font-black uppercase tracking-tight leading-[0.95] text-white break-words md:text-6xl">
           {title}
         </h2>
 
