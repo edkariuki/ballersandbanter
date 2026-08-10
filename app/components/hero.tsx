@@ -63,7 +63,7 @@ export default function Hero() {
   return (
     <div
       ref={containerRef}
-      className="relative h-[70vh] min-h-[400px] sm:h-[80vh] md:h-screen w-full overflow-hidden"
+      className="relative h-[100dvh] w-full overflow-hidden"
     >
       <Image
         src={HeroBg}
