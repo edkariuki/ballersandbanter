@@ -27,8 +27,6 @@ export default function GetInTouch() {
                 </div>
 
                 <div className="flex flex-col justify-center gap-14">
-
-                    {/* EMAIL */}
                     <div>
                         <Inbox className="text-cyan-400 text-5xl mb-6" />
 
