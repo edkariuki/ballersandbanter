@@ -14,7 +14,6 @@ export default function GetInTouch() {
         <section className="min-h-screen bg-[#0a0a1e] text-white px-8 md:px-20 py-24 flex items-center">
             <div className="w-full max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-32">
 
-                {/* LEFT */}
                 <div className="flex items-center">
                     <h1 className="font-archivo-black text-7xl md:text-9xl lg:text-[10rem] uppercase tracking-tighter leading-[0.8]">
                         GET
